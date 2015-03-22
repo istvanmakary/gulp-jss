@@ -1,0 +1,32 @@
+{
+  "name": "gulp-jss",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gooy/gulp-jss.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "jss"
+  ],
+  "author": {
+    "name": "Aaike Van Roekeghem",
+    "email": "aaikevr@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "jshint index.js gulpfile.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "jss": "^1.0.8",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1"
+  }
+}
