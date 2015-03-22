@@ -38,6 +38,7 @@ module.exports = function (options) {
 
         var path = file.path.substr(basepath.length+1);
         code = require(path);
+        if(code.styles) code = code.styles;
       }
 
       sheet = jss.createStyleSheet(code,options);
