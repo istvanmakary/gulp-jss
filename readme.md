@@ -1,5 +1,4 @@
 # gulp-jss
-## Gulp plugin for JSS
 
 [![Build Status](https://travis-ci.org/gooy/gulp-jss.svg?branch=master&style=flat-square)](https://travis-ci.org/gooy/gulp-jss)
 [![Dependency Status](https://david-dm.org/gooy/gulp-jss.svg?style=flat-square)](https://david-dm.org/gooy/gulp-jss)
