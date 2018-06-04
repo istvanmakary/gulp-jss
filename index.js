@@ -36,7 +36,7 @@ module.exports = function (options) {
         code = JSON.parse(file.contents.toString('utf-8'));
       }else{ //handle .js or .jss files
 
-        code = require(file.path);
+        code = eval(file.contents.toString('utf-8'));
         if(code.styles) code = code.styles;
       }
 
